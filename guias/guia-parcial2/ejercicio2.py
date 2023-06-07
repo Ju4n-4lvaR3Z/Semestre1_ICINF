@@ -22,4 +22,3 @@ def mostrar(nombres,liscant):
     
 listnombres=nombres()
 mostrar(listnombres,cantnombre(listnombres))
-
