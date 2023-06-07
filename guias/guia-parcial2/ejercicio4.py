@@ -18,5 +18,11 @@ def vuelto(vp):
             print("Ingrese un valor aceptable")
     return r
 producto=input("Que producto quiere comprar?\n>")
-Vproducto=input(f"Ingrese el valor de {producto}\n>")
-print("Su vuelto es $",vuelto(Vproducto))
+while True:
+    Vproducto=input(f"Ingrese el valor de {producto}\n>")
+    try:
+        vp=int(Vproducto)
+        break
+    except:
+        print("El valor ingresado no es valido")
+print("Su vuelto es $",vuelto(vp))
