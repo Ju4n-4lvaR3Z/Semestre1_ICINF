@@ -1,4 +1,4 @@
-def vuelto(p,vp):
+def vuelto(vp):
     while True:
         billetera=input("Ingrese con cuanto paga\n>")
         try :
@@ -19,4 +19,4 @@ def vuelto(p,vp):
     return r
 producto=input("Que producto quiere comprar?\n>")
 Vproducto=input(f"Ingrese el valor de {producto}\n>")
-print("Su vuelto es $",vuelto(producto,Vproducto))
+print("Su vuelto es $",vuelto(Vproducto))
