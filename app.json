@@ -1,6 +1,22 @@
 {
   "expo": {
     "scheme": "acme",
-    "web": { "bundler": "metro" }
+    "web": {
+      "bundler": "metro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7463f7f5-a5d2-4483-a464-017312a03649"
+      }
+    },
+    "owner": "ju4n_4lvar3z",
+    "slug": "proyecto-integrador",
+    "android": {
+      "package": "com.grupo3.proyectointegrador"
+    }
+  },
+  "androidStatusBar": {
+    "backgroundColor": "#24272D",
+    "translucent": false
   }
 }
